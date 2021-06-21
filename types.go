@@ -14,9 +14,6 @@ type DiskMountInfo struct {
 	// VolumeType: type associated with this volume (ie, block)
 	VolumeType string `json:"volumeType,omitempty"`
 
-	// TargetPath: path which this device should be mounted within the guest
-	TargetPath string `json:"targetPath,omitempty"`
-
 	// FsType: filesystem that needs to be used to mount the storage inside the VM
 	FsType string `json:"fsType,omitempty"`
 
